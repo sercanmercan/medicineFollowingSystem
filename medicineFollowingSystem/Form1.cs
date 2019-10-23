@@ -16,5 +16,20 @@ namespace medicineFollowingSystem
         {
             InitializeComponent();
         }
+
+        private void btnGiris_Click(object sender, EventArgs e)
+        {
+            string username = kullanici.Text;
+            string pass = sifre.Text;
+
+            Form2 doctorForm = new Form2();
+            doctorForm.Show();
+            this.Hide();
+        }
+
+        private void btnCikis_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
